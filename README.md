@@ -37,7 +37,13 @@ poetry.lock       # Locked dependencies
    poetry install
    ```
 
-3. To add a new dependency, use:
+3. Create a `.env` file in the project root and add your GPT API key:
+
+   ```
+   OPENAI_API_KEY=your_api_key_here
+   ```
+
+4. To add a new dependency, use:
    ```bash
    poetry add <package-name>
    ```
