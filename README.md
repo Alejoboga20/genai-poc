@@ -26,13 +26,20 @@ poetry.lock       # Locked dependencies
 ## Installation
 
 1. Install Poetry if you haven't already:
+
    ```bash
    pip install poetry
    ```
 
 2. Install project dependencies:
+
    ```bash
    poetry install
+   ```
+
+3. To add a new dependency, use:
+   ```bash
+   poetry add <package-name>
    ```
 
 ## Running Modules
@@ -42,7 +49,7 @@ Each module can be executed using Poetry. Navigate to the repository root and ru
 ### Module 1
 
 ```bash
-poetry run python module1/src/main.py
+poetry run python module_1/src/main.py
 ```
 
 ## Adding New Modules

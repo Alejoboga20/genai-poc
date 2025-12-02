@@ -1,5 +1,5 @@
 """
-Module 1 - Introduction to GenAI
+Module 1 - Introduction to Langchain
 
 This module contains the main entry point for the first lesson.
 """
